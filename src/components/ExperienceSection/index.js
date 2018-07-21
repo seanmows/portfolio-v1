@@ -24,7 +24,7 @@ class ExperienceSection extends React.Component {
             colour='#FFFFFF'
             title='Scentuals'
             link='https://www.scentuals.com/'
-            timeperiod='June 2016- September 2017'
+            timeperiod='June 2016- Present'
             subtitle='Developed E-commerce websites as well as work on production line optimizing efficiency and commissioning automated machinery '
           />
           <ExperienceUnit
