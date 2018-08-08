@@ -15,7 +15,7 @@ class ProjectsSection extends React.Component {
             logo={weatherLogo}
             colour="#FFFFFF"
             title="Weather App"
-            link="https://warm-cliffs-59444.herokuapp.com/index.html/"
+            link="https://warm-cliffs-59444.herokuapp.com/index.html"
             timeperiod="2018"
             subtitle="A simple app webapp that tells you the weather at your location plus supplies random qoutes using restful Apis."
           />
