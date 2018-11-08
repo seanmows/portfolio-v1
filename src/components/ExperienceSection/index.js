@@ -5,12 +5,21 @@ import ExperienceUnit from '../ExperienceUnit'
 import torontoLogo from '../../assets/images/experience/toronto.jpg'
 import scentualsLogo from '../../assets/images/experience/scentuals.jpg'
 import burnabyLogo from '../../assets/images/experience/burnaby.png'
+import CienaLogo from '../../assets/images/experience/ciena.jpg'
 
 class ExperienceSection extends React.Component {
   render() {
     return (
       <Section title="Experience">
         <div className="row">
+        <ExperienceUnit
+            logo={CienaLogo}
+            colour='#FFFFFF'
+            title='Ciena'
+            link='https://www.ciena.com/'
+            timeperiod='September 2018 - January 2019'
+            subtitle='Worked on next generation products, involved in data acquisition, board design, mechanical assemblies and software development.'
+          />
           <ExperienceUnit
             logo={torontoLogo}
             colour='#FFFFFF'
@@ -27,14 +36,16 @@ class ExperienceSection extends React.Component {
             timeperiod='June 2016- Present'
             subtitle='Developed E-commerce websites as well as work on production line optimizing efficiency and commissioning automated machinery '
           />
+          {/*}
           <ExperienceUnit
             logo={burnabyLogo}
             colour='#403949'
             title='City of Burnaby'
             link='https://www.burnaby.ca/'
             timeperiod='July 2016 - July 2017'
-            subtitle='Taught children and adults of all ages how to skate using leadership skills. Developed teaching plans and marking schemes.'
+    subtitle='Taught children and adults of all ages how to skate using leadership skills. Developed teaching plans and marking schemes.'
           />
+    */} 
         </div>
       </Section>
     )
